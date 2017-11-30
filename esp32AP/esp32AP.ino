@@ -3,8 +3,8 @@
 
 #include <WiFi.h>
 
-const char* ssid = "stringHere";
-const char* pass = "passHere";
+const char* ssid = "esp32tag";
+const char* pass = "ardupass";
 
 
 void setup() {
@@ -21,5 +21,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  delay(300);
 
 }
